@@ -2,10 +2,12 @@
 To implement different concepts of building a Mobile Application in Android Studio in java
 
 ## [Content Provider Contacts](Contentprovidercontacts/ "click to open project")
-> give permissions from your mobile to the app manually.
+> give permissions from your mobile to the app manually
 
 To get the list of all contacts on your phone
+
 ---
+
 ## [Cricket](Cricket/ "click to open project")
 > only for 5 countries
 
