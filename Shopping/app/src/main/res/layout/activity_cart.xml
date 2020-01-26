@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cart"
+    android:orientation="vertical"
+    android:background="#BADFDB">
+
+    <DatePicker
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_y="0dp"
+        android:visibility="invisible"
+        android:id="@+id/picker"></DatePicker>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/finalamount"
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center"
+        android:text="Final Amount=Rs.0"
+        android:layout_height="30sp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#FF8A5C"
+        android:gravity="center"
+        />
+
+
+    <ListView
+        android:layout_marginTop="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mylist">
+    </ListView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/donecart"
+        android:text="DONE"
+        android:textSize="30sp"
+        android:background="#BADFDB"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="15sp"
+        android:textColor="#FF8A5C"/>
+
+
+
+    </LinearLayout>
+
+
+

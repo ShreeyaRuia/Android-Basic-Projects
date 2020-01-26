@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Phone"
+    android:background="#BADFDB">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:text="SELECT PHONE:"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#FF8A5C"
+        android:gravity="center"/>
+
+    <ScrollView
+        android:layout_marginTop="60sp"
+        android:layout_width="match_parent"
+        android:layout_height="550dp">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2"
+        android:rowCount="3"
+        android:id="@+id/mygrid">
+
+        <ImageButton
+            android:id="@+id/phone1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:src="@drawable/phone1"
+            android:padding="20dp"
+            />
+        <ImageButton
+            android:id="@+id/phone2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:src="@drawable/phone2"
+            android:padding="20dp"/>
+        <ImageButton
+            android:id="@+id/phone3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:src="@drawable/phone3"
+            android:padding="20dp"
+            />
+
+        <ImageButton
+            android:id="@+id/phone4"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:padding="20dp"
+            android:src="@drawable/phone4" />
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:src="@drawable/phone6"
+            android:padding="20dp"
+            android:id="@+id/phone6"/>
+
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:src="@drawable/phone5"
+            android:padding="20dp"
+            android:id="@+id/phone5"/>
+
+    </GridLayout>
+    </ScrollView>
+
+        <Button
+            android:id="@+id/done"
+            android:background="#BADFDB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="167dp"
+            android:layout_marginBottom="27dp"
+            android:gravity="center"
+            android:text="Done"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FF8A5C"
+            android:drawableEnd="@drawable/doneicon"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="86dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="29dp"
+            android:text="TIMER"
+            android:textColor="#FF8A5C"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:id="@+id/counttime"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:id="@+id/cart"
+        android:title="CART"
+        android:icon="@drawable/carticon"
+        app:showAsAction="always">
+    </item>
+
+    <item
+        android:id="@+id/share"
+        android:title="SHARE"
+        app:showAsAction="always"
+        android:icon="@drawable/shareicon">
+
+    </item>
+
+    <item
+        android:id="@+id/balance"
+        android:title="BALANCE"
+        android:icon="@drawable/moneyicon"
+        app:showAsAction="always">
+
+    </item>
+
+    <item
+        android:id="@+id/help"
+        android:title="HELP"
+        app:showAsAction="always"
+        android:icon="@drawable/dots">
+
+        <menu>
+            <item
+                android:id="@+id/Loginhelp"
+                android:title="LOGIN"
+                app:showAsAction="never"
+                android:icon="@drawable/login">
+            </item>
+            <item
+                android:id="@+id/rating"
+                android:title="RATING"
+                app:showAsAction="never"
+                android:icon="@drawable/star">
+            </item>
+        </menu>
+    </item>
+
+</menu>
